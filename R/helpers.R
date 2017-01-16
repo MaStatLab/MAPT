@@ -70,7 +70,3 @@ plot.part=function(xy.part,border=FALSE,xlim=c(0,1), ylim=c(0,1), zlim=extendran
 }
   
 
-plot.CB = function(x,upper,lower,col='light gray',...) {
-  plot(x,upper,type='l',col=col,...)
-  polygon(x=c(x,rev(x)),y=c(upper,rev(lower)),col=col,border=col,...)
-}
