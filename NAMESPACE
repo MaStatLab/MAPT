@@ -1,2 +1,3 @@
 useDynLib(markov_apt_kD_density_C)
+import(grid)
 export(markov.apt.density.kD,plot.part,plot.roc)
