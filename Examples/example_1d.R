@@ -1,5 +1,3 @@
-source("../R/Markov-APT_DENSITY.R")
-
 x=seq(from=0.0001,to=0.9999,by=0.002)
 
 nobs = 500 
