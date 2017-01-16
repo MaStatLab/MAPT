@@ -1,8 +1,5 @@
 markov.apt.density.kD= function( x.mat, max.dim = 10, rho0=0.2, rho0.mode = 0,tran.mode=1,lognu.lb=-1, lognu.ub=4, n.grid=5, n.s=2,beta=0.1,x.mat.pred=NULL,n.post.samples=0){
   
-  if (!is.loaded("markov_apt_kD_density_C.so"))
-    dyn.load('markov_apt_kD_density_C.so')
-
   if (is.vector(x.mat)) {
     x.mat = rbind(NULL,x.mat)
   }
