@@ -1,2 +1,2 @@
 useDynLib(MAPT)
-export(markov.apt.density.kD,plot.part,plotroc)
+export(markov.apt.density.kD,plot.part,plot.roc)
