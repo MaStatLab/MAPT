@@ -1,7 +1,3 @@
-source("../R/Markov-APT_DENSITY.R")
-source("../R/helpers.R")
-
-
 library(mvtnorm)
 
 transform=FALSE
