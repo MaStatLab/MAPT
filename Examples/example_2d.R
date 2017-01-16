@@ -1,4 +1,5 @@
 library(mvtnorm)
+library(grid)
 
 transform=FALSE
 x.grid = seq(0.0000001,0.9999999,by=0.01)
